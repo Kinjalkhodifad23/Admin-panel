@@ -1,0 +1,173 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+:root{
+    --primary:#348cd4;
+    --fontcolor:#4c4c5c;
+    --fontcolor2:#6c757d;
+    --robot:'Roboto';
+}
+.row{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.w-20{
+    width: 20%;
+    padding: 10px;
+}
+.w-15{
+    width: 15%;
+    padding: 10px;
+}
+.w-25{
+    width: 25%;
+    padding: 10px;
+}
+.w-30{
+    width: 30%;
+    padding: 10px;
+}
+.w-33{
+     width: 33.33%;
+     padding: 10px;
+}
+.w-40{
+    width: 40%;
+    padding: 10px;
+}
+.w-50{
+    width: 50%;
+    padding: 10px;
+}
+.w-60{
+    width: 60%;
+    padding: 10px;
+}
+.w-80{
+    width: 80%;
+    padding: 10px;
+}
+.padding{
+    padding: 30px;
+}
+.p-0{
+    padding: 0;
+}
+body{
+    background-color: #f3f3f3;
+}
+/* header */
+
+
+header{
+    background-color: var(--primary);
+}
+.logo1 {
+    padding: 0px 20px;
+}
+.menu i{
+    margin-left: 10px;
+    color: white;
+    padding: 12px;
+    font-size: 20px;
+}
+.search i{
+    color: white;
+}
+.search input{
+    border: none;
+    border-radius: 30px;
+    background-color: transparent;
+    padding: 8px 10px;
+    color:#FFFFFF1A;
+}
+.head .search {
+    padding: 5px 10px;
+    margin-left: 20px;
+    width: 250px;
+    border-radius: 30px;
+    background-color: #ffffff1a;
+}
+::placeholder{
+    color: #ffffffc0;
+}
+nav li a{
+    color: white;
+}
+nav li i{
+    font-size: 20px;
+    font-weight: 400;
+}
+nav li:nth-child(6){
+    padding: 20px;
+    background-color: #ffffff1a;
+    color: white;
+}
+.sel{
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+nav select option{
+    color: #4c4c5c;
+    text-transform: capitalize;
+}
+.navigation{
+    background-color: white;
+    padding: 10px;
+    font-family: var(--robot);
+    color: var(--fontcolor2);
+    text-transform: capitalize;
+    
+}
+.navigation .extrapage ,.navigation .exp {
+    padding: 10px;
+    transition: all 0.5s;
+
+}
+.navigation .exp{
+    font-size: 10px;
+    /* color: var(--fontcolor2); */
+    letter-spacing: .1em;
+    opacity: .75;
+    text-transform: uppercase;
+}
+.navigation i{
+    margin-right: 10px;
+}
+.navigation .extrapage:hover{
+    color: var(--primary);
+    cursor: pointer;
+}
+.dash {
+    color: var(--primary);
+}
+.dash .bi{
+    color: #f36270;
+}
+.naviga{
+    padding: 10px;
+    font-size: 10px;
+    opacity: .75;
+    text-transform: uppercase;
+    color: var(--primary);
+
+}
+
