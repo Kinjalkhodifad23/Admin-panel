@@ -36,6 +36,10 @@ img{
 .w-5{
     width: 5%;
 }
+.w-15{
+    width: 15%;
+    padding: 10px;
+}
 .w-10{
     width: 10%;
     padding: 10px;
@@ -74,7 +78,9 @@ img{
 }
 .w-50{
     width: 50%;
-    padding: 10px;
+    /* padding: 10px; */
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .w-55{
     width: 55%;
@@ -91,6 +97,10 @@ img{
 }
 .w-85{
     width: 85%;
+    padding: 10px;
+}
+.w-80{
+    width: 80%;
     padding: 10px;
 }
 .w-90{
@@ -334,6 +344,10 @@ nav select option{
     color: #9ba6b7;
     letter-spacing: 01px;
 }
+.moneys{
+    text-align: center;
+    border-top: 1px dashed #dddddd7a;
+}
 .income h4{
     color: var(--fontcolor);
     font-size: 17.54px;
@@ -348,4 +362,156 @@ nav select option{
 }
 .income .fa-building-columns,.income .fa-chart-simple{
 color: var(--fontcolor2);
+}
+.avg img{
+    height:363px;
+}
+
+
+/* new */
+
+.new{
+    padding-left: 10px;   
+}
+.users{
+    background-color: white;
+}
+.recent{
+    background-color: white;
+    padding: 18px 24px;
+}
+.import button,.export button{
+    padding: 6px 12px;
+    text-transform: capitalize;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+    transition: all 0.5s;
+}
+.export button:hover{
+    background-color: #348cd4e7;
+}
+.import button{
+    color: #313a46e5;
+    background-color: #eef2f7;
+    transition: all 0.5s;
+}
+.import button:hover{
+    opacity: 0.5;
+}
+.import i,.export i{
+    margin-left: 5px;
+}
+.export button{
+    color: white;
+    background-color: var(--primary);
+}
+.active{
+    padding: 6px 0;
+    background-color: #eef2f780;
+    text-align: center;
+}
+.active p{
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    color: #4c4c5c;
+}
+.detail {
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #4c4c5c;
+    padding: 10px ;
+}
+.border{
+    border-bottom: 1px solid #6464d423;
+}
+.detail .avtar img{
+    background-color: #e1eef9;
+    border-radius: 100%;
+    height: 26px;
+    width: 26px;
+    border: 5px solid rgba(0, 0, 255, 0.11);
+}
+.detail .avtar p{
+    margin-left: 15px;
+}
+.detail .green{
+    color: rgb( 62, 195, 150);
+    margin-right: 5px;
+    font-size: 10px;
+}
+.detail .yellow{
+    color: #d4a009;
+}
+.detail .red{
+    color: #cf535f;
+}
+.num{
+    color: #9ba6b7;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.backfor{
+    font-size: 13.6px;
+    color:#4c4c5c ;
+}
+.back ,.foreward,.num1,.num2{
+    height: 30px;
+    width: 30px;
+    border: 2px solid  #82838518;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: var(--robot); 
+     border-radius: 5px;
+     font-size: 13px;
+}
+.back{
+    color: #4c4c5c6b;
+}
+.num1{
+    background-color: var(--primary);
+    color: white;
+}
+.border-dash{
+    border-bottom: 1px dashed #82838541;
+}
+.sold
+{
+    padding-left: 10px;
+    height: 41vh;
+    overflow-y: scroll;
+}
+.bag i{
+    color: #4fbde9;
+    border: 10px solid #4fbde93b;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+.sold{
+
+    padding-top: 14px;
+}
+.contentsold{
+    font-size: 14px;
+    color: var(--fontcolor);
+    font-weight: 400;
+}
+.fa-rocket{
+    color: #348cd4;
+}
+.contentsold :nth-child(1){
+    margin-bottom: 6px;
+    transition: all 0.5s;
+}
+.contentsold :nth-child(1):hover{
+    color: #348cd4;
+    cursor: pointer;
+}
+.contentsold :nth-child(3){
+  
+    font-size: 12px;
+    margin-top: 3px;
+    padding-bottom: 14px;
 }
