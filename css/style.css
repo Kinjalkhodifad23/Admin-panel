@@ -78,13 +78,22 @@ img{
 }
 .w-50{
     width: 50%;
-    /* padding: 10px; */
+    padding-top: 10px;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 10px;
+    
+}
+.w-78{
+    width: 78%;
+    padding: 10px;
+}
+.w-22{
+    width: 22%;
+    padding: 10px;
 }
 .w-55{
     width: 55%;
-    padding-left: 20px;
+    padding: 10px;
 }
 .w-60{
     width: 60%;
@@ -128,6 +137,9 @@ body{
 
 header{
     background-color: var(--primary);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .logo1 {
     padding: 0px 20px;
@@ -186,6 +198,10 @@ nav select option{
     padding: 10px;
     font-size: 14px;
     font-family: var(--robot);
+    position: fixed;
+    top: 7%;
+    left: 0;
+    width: 15%;
     color: var(--fontcolor2);
     text-transform: capitalize;
     
@@ -319,6 +335,7 @@ nav select option{
 
 .static{
     background-color: white;
+    
    
 }
 .stat{
@@ -514,4 +531,31 @@ color: var(--fontcolor2);
     font-size: 12px;
     margin-top: 3px;
     padding-bottom: 14px;
+}
+.transaction{
+    padding: 5px 10px;
+}
+.advertise .low{
+    color: #3ec396;
+}
+.advertise .add{
+    color: var(--fontcolor);
+    font-size: 14px;
+}
+.advertise .price{
+    font-size: 14px;
+    color: #3ec396;
+}
+.advertise .date{
+    text-align: end;
+    font-size: 14px;
+    color: #9ba6b7;
+}
+.red1 p ,.red1 i{ 
+    color:#f36270;
+}
+
+.advertise{
+    height: 41vh;
+    overflow-y:scroll ;
 }
